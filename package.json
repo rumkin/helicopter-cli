@@ -1,0 +1,10 @@
+{
+  "name": "helicopter-cli",
+  "version": "1.0.0",
+  "description": "Helicopter cli control tool",
+  "bin": {
+    "helicopter": "bin/helicopter.sh"
+  },
+  "preferGlobal": true,
+  "os": ["darwin", "linux"]
+}
