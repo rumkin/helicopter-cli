@@ -20,5 +20,5 @@ do
   fi
 done
 
-echo "Helicopter executable not found" > &2
+echo "Helicopter executable not found" >&2
 exit 1
