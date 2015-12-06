@@ -29,7 +29,7 @@ create () {
     exit 1
   fi
 
-  if [ $# -gt 2 ]
+  if [ $# -gt 1 ]
   then
     DIR=$2
     CUR=$(readlink -f "$DIR")
