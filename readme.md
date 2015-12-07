@@ -18,7 +18,7 @@ npm install -g helicopter-cli
 Helicopter script pass all arguments to helicopter executable and redirect stdin.
 
 ```
-helicopter [COMMAND] [OPTIONS]
+helicopter <COMMAND> [OPTIONS]
 ```
 
 ## Commands
@@ -28,7 +28,7 @@ build projects from template.
 
 ```
 init [DIR]
-create TEMPLATE [DIR]
+create <TEMPLATE> [DIR]
 ```
 
 If command not exists in helicopter cli tool it will be searched in the nearest
@@ -45,7 +45,7 @@ Create command download template from github or npm to specified directory or $P
 
 ```shell
 helicopter create helicopterjs/basic # Install template from github.com
-helicopter create helicopter-template # Install template from npm
+helicopter create helicopter-basic # Install template from npm
 ```
 
 ## Example
